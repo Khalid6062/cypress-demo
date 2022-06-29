@@ -1,0 +1,29 @@
+[
+  {
+      "name":"standard user",
+      "username":"standard_user",
+      "password":"secret_sauce",
+      "expected":"Products"
+  },
+
+  {
+      "name":"Incorrect username",
+      "username":"incorrect_user",
+      "password":"secret_sauce",
+      "expected":"Epic sadface: Username and password do not match any user in this service"
+  },
+
+  {
+      "name":"Incorrect password",
+      "username":"standard_user",
+      "password":"incorrect_sauce",
+      "expected":"Epic sadface: Username and password do not match any user in this service"
+  },
+
+  {
+      "name":"locked out user",
+      "username":"locked_out_user",
+      "password":"secret_sauce",
+      "expected":"Epic sadface: Sorry, this user has been locked out."
+  }
+]

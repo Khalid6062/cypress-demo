@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-29T11:18:54.208Z",
+    "end": "2022-06-29T11:19:07.783Z",
+    "duration": 13575,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "eadd3816-58d5-430c-b67c-52b63951f133",
+      "title": "",
+      "fullFile": "cypress\\e2e\\socialMediaIcons.spec.js",
+      "file": "cypress\\e2e\\socialMediaIcons.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b20b84fe-b4cb-4f5d-b916-0865a9e7a88c",
+          "title": "verify the social media icons",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify the twitter icon",
+              "fullTitle": "verify the social media icons verify the twitter icon",
+              "timedOut": null,
+              "duration": 3919,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith('standard_user', 'secret_sauce');\nonProductPage.verifySocialMediaIcon('twitter');",
+              "err": {},
+              "uuid": "d0f65a6d-c477-4a04-a11c-f577687d4e57",
+              "parentUUID": "b20b84fe-b4cb-4f5d-b916-0865a9e7a88c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verify the facebook icon",
+              "fullTitle": "verify the social media icons verify the facebook icon",
+              "timedOut": null,
+              "duration": 3821,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith('standard_user', 'secret_sauce');\nonProductPage.verifySocialMediaIcon('facebook');",
+              "err": {},
+              "uuid": "5d04a98b-5877-4634-8adf-eda1451df12d",
+              "parentUUID": "b20b84fe-b4cb-4f5d-b916-0865a9e7a88c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verify the linkedin icon",
+              "fullTitle": "verify the social media icons verify the linkedin icon",
+              "timedOut": null,
+              "duration": 2654,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith('standard_user', 'secret_sauce');\nonProductPage.verifySocialMediaIcon('linkedin');",
+              "err": {},
+              "uuid": "01dca72b-dfcd-41ab-a73b-e442da4e3012",
+              "parentUUID": "b20b84fe-b4cb-4f5d-b916-0865a9e7a88c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d0f65a6d-c477-4a04-a11c-f577687d4e57",
+            "5d04a98b-5877-4634-8adf-eda1451df12d",
+            "01dca72b-dfcd-41ab-a73b-e442da4e3012"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10394,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

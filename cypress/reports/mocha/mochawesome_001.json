@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-29T11:18:19.711Z",
+    "end": "2022-06-29T11:18:29.251Z",
+    "duration": 9540,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "348eb8b1-3155-4f95-91fc-19599d394ec7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\loginPage.spec.js",
+      "file": "cypress\\e2e\\loginPage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "85b01f28-9a3e-41cc-980e-1382e31c1e83",
+          "title": "Data Driven test reading data from a JSON file",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "standard user",
+              "fullTitle": "Data Driven test reading data from a JSON file standard user",
+              "timedOut": null,
+              "duration": 1927,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith(test.username, test.password);\nif (test.name === 'standard user') {\n  cy.get('.title').should('contain.text', test.expected);\n} else {\n  cy.get('[data-test=\"error\"]').should('contain.text', test.expected);\n}",
+              "err": {},
+              "uuid": "c5cd1f0f-bb3a-4440-a3c2-80d6ee6edb15",
+              "parentUUID": "85b01f28-9a3e-41cc-980e-1382e31c1e83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Incorrect username",
+              "fullTitle": "Data Driven test reading data from a JSON file Incorrect username",
+              "timedOut": null,
+              "duration": 1918,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith(test.username, test.password);\nif (test.name === 'standard user') {\n  cy.get('.title').should('contain.text', test.expected);\n} else {\n  cy.get('[data-test=\"error\"]').should('contain.text', test.expected);\n}",
+              "err": {},
+              "uuid": "0fe671e6-9b7f-4f7b-87d1-e1b034a37b64",
+              "parentUUID": "85b01f28-9a3e-41cc-980e-1382e31c1e83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Incorrect password",
+              "fullTitle": "Data Driven test reading data from a JSON file Incorrect password",
+              "timedOut": null,
+              "duration": 1413,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith(test.username, test.password);\nif (test.name === 'standard user') {\n  cy.get('.title').should('contain.text', test.expected);\n} else {\n  cy.get('[data-test=\"error\"]').should('contain.text', test.expected);\n}",
+              "err": {},
+              "uuid": "916b71d6-92d0-4db8-be43-1c74fdc05890",
+              "parentUUID": "85b01f28-9a3e-41cc-980e-1382e31c1e83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "locked out user",
+              "fullTitle": "Data Driven test reading data from a JSON file locked out user",
+              "timedOut": null,
+              "duration": 1362,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith(test.username, test.password);\nif (test.name === 'standard user') {\n  cy.get('.title').should('contain.text', test.expected);\n} else {\n  cy.get('[data-test=\"error\"]').should('contain.text', test.expected);\n}",
+              "err": {},
+              "uuid": "713cc30f-0374-44fc-889b-e66cfebad46f",
+              "parentUUID": "85b01f28-9a3e-41cc-980e-1382e31c1e83",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c5cd1f0f-bb3a-4440-a3c2-80d6ee6edb15",
+            "0fe671e6-9b7f-4f7b-87d1-e1b034a37b64",
+            "916b71d6-92d0-4db8-be43-1c74fdc05890",
+            "713cc30f-0374-44fc-889b-e66cfebad46f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6620,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

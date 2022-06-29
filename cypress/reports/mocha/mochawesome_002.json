@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-29T11:18:39.163Z",
+    "end": "2022-06-29T11:18:44.554Z",
+    "duration": 5391,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8c354214-c066-417a-af0e-ebee747aa387",
+      "title": "",
+      "fullFile": "cypress\\e2e\\price.spec.js",
+      "file": "cypress\\e2e\\price.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "03d36554-9f62-44c1-8b6d-449adb80a4e3",
+          "title": "ordering a product",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "order any product",
+              "fullTitle": "ordering a product order any product",
+              "timedOut": null,
+              "duration": 3634,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.loginwith('standard_user', 'secret_sauce');\nonProductPage.orderProduct('backpack');",
+              "err": {},
+              "uuid": "d21990cc-9200-4030-b181-838d6008a316",
+              "parentUUID": "03d36554-9f62-44c1-8b6d-449adb80a4e3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d21990cc-9200-4030-b181-838d6008a316"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3634,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
